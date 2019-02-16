@@ -363,7 +363,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-/*#arrow, #equal {
+#arrow, #equal {
   max-width: 0;
   opacity: 0;
   animation: showSymbols 15s infinite;
@@ -374,7 +374,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-#return {
+/*#return {
   animation: hideReturn 15s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
