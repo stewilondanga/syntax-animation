@@ -76,8 +76,8 @@ span {
   opacity: 0;
 }
 
-/*@keyframes hideFunction {
-  0% { opacity: 1; max-width: 9ch; }
+@keyframes hideFunction {
+  /*  0% { opacity: 1; max-width: 9ch; }
   20% { opacity: 1; max-width: 9ch; }
   23% { opacity: 0; max-width: 9ch; }
   26% { opacity: 0; max-width: 0; }
