@@ -87,8 +87,12 @@ span {
     max-width: 9ch;
   }
 
-  /*23% { opacity: 0; max-width: 9ch; }
-  26% { opacity: 0; max-width: 0; }
+  23% {
+    opacity: 0;
+    max-width: 9ch;
+  }
+
+  /*26% { opacity: 0; max-width: 0; }
   100% { opacity: 0; max-width: 0; }
 }
 
