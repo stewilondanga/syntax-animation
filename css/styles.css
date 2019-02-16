@@ -172,8 +172,12 @@ span {
     left: 14ch;
   }
 
-  /*52% { top: 0; left: 14ch; }
-  55% { top:0; left: 16ch; }
+  52% {
+    top: 0;
+    left: 14ch;
+  }
+
+  /*55% { top:0; left: 16ch; }
   100% { top: 0; left: 16ch; }
 }
 
