@@ -54,10 +54,11 @@ span {
   max-width: 30ch;
 }
 
-/*.newline {
+.newline {
   clear: left;
 }
-.reserved {
+
+/*.reserved {
   color: #fe8;
 }
 .name {
