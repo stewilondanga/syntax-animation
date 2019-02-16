@@ -290,11 +290,14 @@ span {
     max-width: 0;
   }
 
-  /*100% { opacity: 0; max-width: 0; }
+  100% {
+    opacity: 0;
+    max-width: 0;
+  }
 }
 
 @-webkit-keyframes moveResult {
-  0% { top: 1.5em; }
+  /*0% { top: 1.5em; }
   45% { top: 1.5em; left: 0; }
   48% { top: 0; left: 14ch; }
   52% { top: 0; left: 14ch; }
