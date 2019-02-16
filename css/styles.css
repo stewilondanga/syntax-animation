@@ -104,8 +104,12 @@ span {
 }
 
 @keyframes showSymbols {
-  /*0% { opacity: 0; max-width: 0; }
-  29% { opacity: 0; max-width: 0; }
+  0% {
+    opacity: 0;
+    max-width: 0;
+  }
+
+  /*29% { opacity: 0; max-width: 0; }
   32% { opacity: 0; max-width: 3ch; }
   35% { opacity: 1; max-width: 3ch; }
   100% { opacity: 1; max-width: 3ch; }
