@@ -285,8 +285,12 @@ span {
     max-width: 9ch;
   }
 
-  /*55% { opacity: 0; max-width: 0; }
-  100% { opacity: 0; max-width: 0; }
+  55% {
+    opacity: 0;
+    max-width: 0;
+  }
+
+  /*100% { opacity: 0; max-width: 0; }
 }
 
 @-webkit-keyframes moveResult {
