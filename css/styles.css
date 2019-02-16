@@ -124,11 +124,14 @@ span {
     max-width: 3ch;
   }
 
-  /*100% { opacity: 1; max-width: 3ch; }
+  100% {
+    opacity: 1;
+    max-width: 3ch;
+  }
 }
 
 @keyframes hideReturn {
-  0% { opacity: 1; max-width: 9ch; }
+  /*0% { opacity: 1; max-width: 9ch; }
   48% { opacity: 1; max-width: 9ch; }
   52% { opacity: 0; max-width: 9ch; }
   55% { opacity: 0; max-width: 0; }
