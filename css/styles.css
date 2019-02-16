@@ -216,8 +216,12 @@ span {
 }
 
 @-webkit-keyframes hideFunction {
-  /*0% { opacity: 1; max-width: 9ch; }
-  20% { opacity: 1; max-width: 9ch; }
+  0% {
+    opacity: 1;
+    max-width: 9ch;
+  }
+
+  /*20% { opacity: 1; max-width: 9ch; }
   23% { opacity: 0; max-width: 9ch; }
   26% { opacity: 0; max-width: 0; }
   100% { opacity: 0; max-width: 0; }
