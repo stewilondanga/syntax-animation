@@ -392,7 +392,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-/*.braces {
+.braces {
   animation: hideBraces 15s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -401,7 +401,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-@media all and (min-width: 420px) {
+/*@media all and (min-width: 420px) {
   html, body { font-size: 25px; }
 }
 
