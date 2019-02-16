@@ -66,11 +66,11 @@ span {
   color: #69d;
 }
 
-/*.symbol {
+.symbol {
   color: #eee;
 }
 
-#arrow,
+/*#arrow,
 #equal {
   max-width: 0;
   opacity: 0;
