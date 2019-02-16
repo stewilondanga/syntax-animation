@@ -30,14 +30,15 @@ html, body {
   -webkit-transform: translate(-50%, -50%);
 }
 
-/*#code div {
+#code div {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 1.5em;
   height: 1.5em;
 }
-#code #line-2 { top: 1.5em; }
+
+/*#code #line-2 { top: 1.5em; }
 #code #line-3 { top: 3em; }
 
 span {
