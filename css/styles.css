@@ -321,11 +321,14 @@ span {
     left: 16ch;
   }
 
-  /*100% { top: 0; left: 16ch; }
+  100% {
+    top: 0;
+    left: 16ch;
+  }
 }
 
-@-webkit-keyframes hideBraces {
-  0% { opacity: 1; max-width: 3ch; }
+/*@-webkit-keyframes hideBraces {
+  /*0% { opacity: 1; max-width: 3ch; }
   38% { opacity: 1; max-width: 3ch; }
   41% { opacity: 0; max-width: 3ch; }
   42% { opacity: 0; max-width: 0; }
