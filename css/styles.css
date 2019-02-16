@@ -20,7 +20,6 @@ html, body {
   height: 1.5em;
 }
 
-/*
 #code {
   position: absolute;
   top: 50%;
@@ -31,7 +30,7 @@ html, body {
   -webkit-transform: translate(-50%, -50%);
 }
 
-#code div {
+/*#code div {
   position: absolute;
   top: 0;
   left: 0;
