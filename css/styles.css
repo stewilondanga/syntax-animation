@@ -333,8 +333,12 @@ span {
     max-width: 3ch;
   }
 
-  /*38% { opacity: 1; max-width: 3ch; }
-  41% { opacity: 0; max-width: 3ch; }
+  38% {
+    opacity: 1;
+    max-width: 3ch;
+  }
+
+  /*41% { opacity: 0; max-width: 3ch; }
   42% { opacity: 0; max-width: 0; }
   100% { opacity: 0; max-width: 0; }
 }
