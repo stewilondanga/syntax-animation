@@ -348,10 +348,13 @@ span {
     max-width: 0;
   }
 
-  /*100% { opacity: 0; max-width: 0; }
+  100% {
+    opacity: 0;
+    max-width: 0;
+  }
 }
 
-#function {
+/*#function {
   animation: hideFunction 15s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
