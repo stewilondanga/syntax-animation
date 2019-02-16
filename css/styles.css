@@ -407,11 +407,13 @@ span {
   }
 }
 
-/*@media all and (min-width: 800px) {
-  html, body { font-size: 32px; }
+@media all and (min-width: 800px) {
+  html, body {
+    font-size: 32px;
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
