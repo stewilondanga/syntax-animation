@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,196 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+html, body {
+  background: #191619;
+  font-family: "Courier New", Courier, Monaco, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#code {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30ch;
+  height: 4.5em;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#code div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.5em;
+  height: 1.5em;
+}
+#code #line-2 { top: 1.5em; }
+#code #line-3 { top: 3em; }
+
+span {
+  display: inline-block;
+  overflow: hidden;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  max-width: 30ch;
+}
+.newline {
+  clear: left;
+}
+.reserved {
+  color: #fe8;
+}
+.name {
+  color: #69d;
+}
+.symbol {
+  color: #eee;
+}
+
+#arrow,
+#equal {
+  max-width: 0;
+  opacity: 0;
+}
+
+@keyframes hideFunction {
+  0% { opacity: 1; max-width: 9ch; }
+  20% { opacity: 1; max-width: 9ch; }
+  23% { opacity: 0; max-width: 9ch; }
+  26% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+@keyframes showSymbols {
+  0% { opacity: 0; max-width: 0; }
+  29% { opacity: 0; max-width: 0; }
+  32% { opacity: 0; max-width: 3ch; }
+  35% { opacity: 1; max-width: 3ch; }
+  100% { opacity: 1; max-width: 3ch; }
+}
+
+@keyframes hideReturn {
+  0% { opacity: 1; max-width: 9ch; }
+  48% { opacity: 1; max-width: 9ch; }
+  52% { opacity: 0; max-width: 9ch; }
+  55% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+@keyframes moveResult {
+  0% { top: 1.5em; }
+  45% { top: 1.5em; left: 0; }
+  48% { top: 0; left: 14ch; }
+  52% { top: 0; left: 14ch; }
+  55% { top:0; left: 16ch; }
+  100% { top: 0; left: 16ch; }
+}
+
+@keyframes hideBraces {
+  0% { opacity: 1; max-width: 3ch; }
+  38% { opacity: 1; max-width: 3ch; }
+  41% { opacity: 0; max-width: 3ch; }
+  42% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+@-webkit-keyframes hideFunction {
+  0% { opacity: 1; max-width: 9ch; }
+  20% { opacity: 1; max-width: 9ch; }
+  23% { opacity: 0; max-width: 9ch; }
+  26% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+@-webkit-keyframes showSymbols {
+  0% { opacity: 0; max-width: 0; }
+  29% { opacity: 0; max-width: 0; }
+  32% { opacity: 0; max-width: 3ch; }
+  35% { opacity: 1; max-width: 3ch; }
+  100% { opacity: 1; max-width: 3ch; }
+}
+
+@-webkit-keyframes hideReturn {
+  0% { opacity: 1; max-width: 9ch; }
+  49% { opacity: 1; max-width: 9ch; }
+  52% { opacity: 0; max-width: 9ch; }
+  55% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+@-webkit-keyframes moveResult {
+  0% { top: 1.5em; }
+  45% { top: 1.5em; left: 0; }
+  48% { top: 0; left: 14ch; }
+  52% { top: 0; left: 14ch; }
+  55% { top:0; left: 16ch; }
+  100% { top: 0; left: 16ch; }
+}
+
+@-webkit-keyframes hideBraces {
+  0% { opacity: 1; max-width: 3ch; }
+  38% { opacity: 1; max-width: 3ch; }
+  41% { opacity: 0; max-width: 3ch; }
+  42% { opacity: 0; max-width: 0; }
+  100% { opacity: 0; max-width: 0; }
+}
+
+#function {
+  animation: hideFunction 15s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation: hideFunction 15s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+}
+
+#arrow, #equal {
+  max-width: 0;
+  opacity: 0;
+  animation: showSymbols 15s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation: showSymbols 15s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+}
+
+#return {
+  animation: hideReturn 15s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation: hideReturn 15s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+}
+
+#line-2 {
+  animation: moveResult 15s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation: moveResult 15s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+}
+
+.braces {
+  animation: hideBraces 15s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation: hideBraces 15s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+}
+
+@media all and (min-width: 420px) {
+  html, body { font-size: 25px; }
+}
+
+@media all and (min-width: 800px) {
+  html, body { font-size: 32px; }
 }
 
 .containers {
