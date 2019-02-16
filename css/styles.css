@@ -204,8 +204,12 @@ span {
     max-width: 3ch;
   }
 
-  /*42% { opacity: 0; max-width: 0; }
-  100% { opacity: 0; max-width: 0; }
+  42% {
+    opacity: 0;
+    max-width: 0;
+  }
+
+  /*100% { opacity: 0; max-width: 0; }
 }
 
 @-webkit-keyframes hideFunction {
