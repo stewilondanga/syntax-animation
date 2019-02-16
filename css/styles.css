@@ -270,8 +270,12 @@ span {
 }
 
 @-webkit-keyframes hideReturn {
-  /*0% { opacity: 1; max-width: 9ch; }
-  49% { opacity: 1; max-width: 9ch; }
+  0% {
+    opacity: 1;
+    max-width: 9ch;
+  }
+
+  /*49% { opacity: 1; max-width: 9ch; }
   52% { opacity: 0; max-width: 9ch; }
   55% { opacity: 0; max-width: 0; }
   100% { opacity: 0; max-width: 0; }
