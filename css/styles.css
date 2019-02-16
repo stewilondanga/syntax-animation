@@ -1,3 +1,10 @@
+html, body {
+  background: #191619;
+  font-family: "Courier New", Courier, Monaco, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,12 +28,6 @@
   height: 1.5em;
 }
 
-html, body {
-  background: #191619;
-  font-family: "Courier New", Courier, Monaco, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-}
 
 #code {
   position: absolute;
