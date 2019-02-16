@@ -58,10 +58,11 @@ span {
   clear: left;
 }
 
-/*.reserved {
+.reserved {
   color: #fe8;
 }
-.name {
+
+/*.name {
   color: #69d;
 }
 .symbol {
