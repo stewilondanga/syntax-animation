@@ -46,14 +46,15 @@ html, body {
   top: 3em;
 }
 
-/*span {
+span {
   display: inline-block;
   overflow: hidden;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   max-width: 30ch;
 }
-.newline {
+
+/*.newline {
   clear: left;
 }
 .reserved {
