@@ -327,7 +327,7 @@ span {
   }
 }
 
-/*@-webkit-keyframes hideBraces {
+@-webkit-keyframes hideBraces {
   /*0% { opacity: 1; max-width: 3ch; }
   38% { opacity: 1; max-width: 3ch; }
   41% { opacity: 0; max-width: 3ch; }
