@@ -383,7 +383,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-/*#line-2 {
+#line-2 {
   animation: moveResult 15s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -392,7 +392,7 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-.braces {
+/*.braces {
   animation: hideBraces 15s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
