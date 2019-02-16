@@ -401,11 +401,13 @@ span {
   -webkit-animation-timing-function: linear;
 }
 
-/*@media all and (min-width: 420px) {
-  html, body { font-size: 25px; }
+@media all and (min-width: 420px) {
+  html, body {
+    font-size: 25px;
+  }
 }
 
-@media all and (min-width: 800px) {
+/*@media all and (min-width: 800px) {
   html, body { font-size: 32px; }
 }
 
