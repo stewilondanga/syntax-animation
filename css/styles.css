@@ -301,8 +301,12 @@ span {
     top: 1.5em;
   }
 
-  /*45% { top: 1.5em; left: 0; }
-  48% { top: 0; left: 14ch; }
+  45% {
+    top: 1.5em;
+    left: 0;
+  }
+
+  /*48% { top: 0; left: 14ch; }
   52% { top: 0; left: 14ch; }
   55% { top:0; left: 16ch; }
   100% { top: 0; left: 16ch; }
